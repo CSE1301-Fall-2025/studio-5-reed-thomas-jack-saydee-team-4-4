@@ -17,7 +17,7 @@ public class DrawBullsEyesDebugApp {
 			for (DrawCase drawCase : DrawBullsEyes.getCases()) {
 				StdDraw.clear();
 				drawCase.draw();
-				Object[] options = { "Continue", "Exit" };
+				Object[] options = { "fard", "ball" };
 				if (DialogBoxes.askUser(drawCase.getText(), DrawBullsEyesDebugApp.class.getSimpleName(),
 						JOptionPane.QUESTION_MESSAGE, options)) {
 					//pass
